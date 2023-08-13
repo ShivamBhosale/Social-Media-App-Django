@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.appbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#540D6E;
+    margin: 0rem;
+    color: white;
+    height: 8vh;
+}
+
+#login-btn{
+    background-color: #540D6E;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#register-btn{
+    background-color: #540D6E;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}

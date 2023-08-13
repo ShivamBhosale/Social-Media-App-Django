@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banter</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'banterapp/css/index.css' %}">
+</head>
+
+<body>
+    <div class="appbody">
+    <div class="upper-body">
+        <div class="app-tile">
+        <h1>banter.</h1>
+        <p>Your Social Playground.</p>
+        </div>
+        <div class="app-image">
+            <img src="{% static 'banterapp/images/banter-index.svg' %}" alt="Coming Soon" id="banter-index">
+        </div>
+    </div>
+    <div class="lr-btns">
+        <a href="" class="btn" id="login-btn">Login</a>
+        <a href=""" class="btn" id="register-btn">Register</a>
+    </div>
+    <div class="footer">
+        <p>© 2023 banter. All rights reserved.</p>
+
+    </div>
+</div>
+</body>
+</html>
